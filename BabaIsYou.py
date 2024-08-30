@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run(["pip","install","pygame"])
 import pygame
 TILESIZE = 36 # Size of each tile 24x24
 GRIDWIDTH = 33 # Amount of tiles across x
